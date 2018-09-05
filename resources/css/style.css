@@ -211,7 +211,7 @@ nav li {
 .courses h1 {
   text-align: center;
   padding-bottom: 32px;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 700;
 }
 
@@ -268,7 +268,7 @@ nav li {
   display: flex;
   justify-content: space-around;
   margin-top: 32px;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 700;
 }
 .thesis-video {
@@ -336,6 +336,46 @@ footer {
   .desktop {
     display: none;
   }
+  nav {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    align-content:
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    max-width: 480px;
+  }
+  .logo {
+    display: none;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+
+  }
+  .banner img {
+    width: 100%;
+  }
+  .learn h1 {
+    display: flex;
+    font-size: 24px;
+  }
+  .learn h2 {
+    text-align: center;
+    display: flex;
+    font-size: 18px;
+    max-width: 480px;
+
+  }
+
+}
+
 
 
 @media only screen and (min-width: 480px) and (max-width: 1080px) {
